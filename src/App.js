@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 import Hello from './components/Hello';
+import ItemMain from './components/item/ItemMain';
+import TodoTemplate from './components/todo/TodoTemplate';
 function App() {
   return (
     <>
-      <Hello />
+      <TodoTemplate />
     </>
   );
 }
